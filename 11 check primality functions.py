@@ -1,4 +1,6 @@
+# check for prime number function
 def check_primality():
+    # ask user for a number, then adds 1 to range to divide
     x = int(input("Please enter a number: "))
     div = []
     for y in range(1, x + 1):

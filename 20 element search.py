@@ -1,6 +1,7 @@
 import random
 
 
+# makes a list, and then checks if a random number is in that list
 def element_search():
     searchlist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     keynumber = random.randint(0, 20)

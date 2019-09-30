@@ -1,3 +1,8 @@
+# function to produce fibonacci sequence out of a sequence of numbers
+# the fibonacci sequence is when the next number in a list is a sum of two previous numbers
+# ex. 1+1=2, then 1 +2 = 3, then 2 + 3 = 5, then 3 + 5 = 8, etc.
+
+
 def gen_fib():
     global fib
     list_size = int(input("How many fibonacci numbers would you like to generate?: "))
